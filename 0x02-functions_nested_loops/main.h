@@ -1,8 +1,6 @@
-#ifndef MAIN_H_
-#define MAIN_H_
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 
-int main(void)
-{
-}
+int _putchar (char c);
 
 #endif
