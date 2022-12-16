@@ -1,12 +1,18 @@
 #include "main.h"
 /**
- * add - Check Main
- * @a: An integer a
- * @b: An integer b
- * Description: Function that adds two integers and returns the result
- * Return: Result to add a and b
+ * print_alphabet_x10 - Check Main
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: Nothing.
  */
-int add(int a, int b)
+void print_alphabet_x10(void)
 {
-return (a + b);
+char i;
+int j;
+for (j = 0; j < 10; j++)
+{
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
+_putchar('\n');
+}
 }
