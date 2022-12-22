@@ -16,10 +16,5 @@ break;
 op = *(s1 + i) - *(s2 + i);
 i++;
 }
-
- 
-
-
 return (op);
-
 }
