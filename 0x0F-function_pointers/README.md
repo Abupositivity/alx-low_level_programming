@@ -1,0 +1,1 @@
+Function Pointers - Is a pointer to a function that points to a code not data. It can be passed as arguments to functions and then a function that receives function pointer can call back the function it points to.
