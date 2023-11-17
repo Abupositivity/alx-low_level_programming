@@ -24,7 +24,7 @@ if (tmp == NULL)
 *head = newnode;
 else
 {
- while (tmp->next != NULL)
+while (tmp->next != NULL)
 tmp = tmp->next;
 tmp->next = newnode;
 }
